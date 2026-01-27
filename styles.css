@@ -22,7 +22,7 @@ body{
     width: 100%;
     z-index: 1000;
 
-    background-color: rgba(0,0,0,0); /* optional but recommended */
+    background-color: rgba(0,0,0,0.5); /* optional but recommended */
 }
 
 .navigation ul {
@@ -75,7 +75,7 @@ body{
 
 .page-header-logo {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 
