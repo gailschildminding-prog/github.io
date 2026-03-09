@@ -11,7 +11,6 @@ body{
     padding: 0;
     overflow-x: hidden;
     background: var(--secondary-color);
-    background: linear-gradient(195deg, white 0%, var(--secondary-color) 100%);
     height:100vh;
 }
 
@@ -19,7 +18,7 @@ body{
 
 /* Navigation Styles */
 .navigation {
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -97,11 +96,17 @@ body{
 
 /* About Me Page Styles */
 
+.intro-background
+{
+    padding:150px 50px;
+    margin:0px;
+    background: linear-gradient(195deg, white 0%, var(--secondary-color) 100%);
+}
 
 .introduction{
     display:flex;
     background-color: rgba(0,0,0,0.5);
-    margin:140px 60px;
+    margin: 0;
     border-radius: 30px;
 }
 
@@ -136,4 +141,43 @@ body{
     margin:20px;
     margin-left:auto;
     margin-right:20px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* Location Styles */
+
+.location-description
+{
+    padding:0;
+    background-color: white;
+    margin:0;
+}
+
+.location-description h1{
+    margin:0;
+    font-size: 3em;
+    padding:100px 30px 30px 300px;
+}
+
+.upton-desc-and-map
+{
+    display:flex;
+    padding:0px 100px 100px 100px;
+}
+
+
+.upton-desc-and-map p{
+    margin:0;
+    font-size: 2em;
+    max-width: 60%;
+    padding:0px 50px 0px 0px;
+    text-align: center;
+}
+
+.upton-desc-and-map iframe{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
 }
